@@ -1,11 +1,10 @@
 import "./App.css";
+import "@mdxeditor/editor/style.css";
+
+import DefaultAdminLayout from "./layouts/Layout";
 
 function App() {
-  return (
-    <>
-      <span className="text-red-400">gowno</span>
-    </>
-  );
+  return <DefaultAdminLayout>d</DefaultAdminLayout>;
 }
 
 export default App;
