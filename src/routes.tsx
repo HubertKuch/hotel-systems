@@ -1,6 +1,7 @@
 import type { JSX } from "react/jsx-dev-runtime";
 import Pages from "./windows/Pages";
 import App from "./App";
+import Orders from "./windows/Orders";
 
 interface Route {
   path: string;
@@ -15,6 +16,10 @@ const routes: Route[] = [
   {
     path: "/pages",
     element: <Pages />,
+  },
+  {
+    path: "/orders",
+    element: <Orders />,
   },
 ];
 

@@ -2,7 +2,8 @@ export default function MobileNavBar() {
   return (
     <div className="navbar bg-base-100 shadow-sm">
       <div className="flex-none">
-        <div className="drawer-content btn btn-square btn-ghost">
+        {localStorage.getItem("test")}
+        <div className="drawer-content btn btn-square btn-ghost lg:hidden">
           <label
             htmlFor="admin-drawer"
             className="btn btn-primary drawer-button"
