@@ -29,8 +29,6 @@ export default function SideMenu() {
               </svg>
               Strony
             </Link>
-            <Link to={"/pages"}>Strony</Link>
-            <Link to={"/pages"}>Strony</Link>
             <Link to={"/orders"}>Zamowienia</Link>
           </li>
         </ul>
